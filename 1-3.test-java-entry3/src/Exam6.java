@@ -19,7 +19,6 @@ public class Exam6 {
         
     }
 
-    
 
     public static void main(String[] args) {
         System.out.println(calc(2,3,'+'));
