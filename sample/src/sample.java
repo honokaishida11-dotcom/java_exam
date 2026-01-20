@@ -22,17 +22,18 @@ public class sample {
   // mainメソッド
   public static void main(String[] args) {
 
+    /* 
     int ans1 = calc(10, 5, '+');
     int ans2 = calc(10, 5, '-');
     int ans3 = calc(10, 5, '*');
     int ans4 = calc(10, 5, '/');
-    int ans5 = calc(10, 5, '%'); // 不正な演算子
+    int ans5 = calc(10, 5, '%'); // 不正な演算子 */
 
-    System.out.println(ans1); // 15
-    System.out.println(ans2); // 5
-    System.out.println(ans3); // 50
-    System.out.println(ans4); // 2
-    System.out.println(ans5); // -1
+    System.out.println(calc(10, 5, '+')); // 15
+    System.out.println(calc(10, 5, '-')); // 5
+    System.out.println(calc(10, 5, '*')); // 50
+    System.out.println(calc(10, 5, '/')); // 2
+    System.out.println(calc(10, 5, '%')); // -1
   }
 
 }

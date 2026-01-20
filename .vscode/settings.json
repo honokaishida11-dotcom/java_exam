@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "1-3.test-java-entry3",
         "1-2.test-java-entry2/src",
         "1-1.test-java-entry1/src",
-        "1-3.test-java-entry3"
+        "2.test-object-oriented/src"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }
