@@ -1,0 +1,40 @@
+@charset "utf-8";
+header{
+    width: 900px;
+    height: 50px;
+    background-color: beige;
+}
+
+.main{
+    display: center;
+    width: 700px;
+    height: 500px;
+    background-color: blanchedalmond;
+}
+
+.menu{
+    width: 70px;
+    height: 500px;
+    background-color: #a49950;
+}
+
+.kokoku{
+    width: 70px;
+    height: 500px;
+    background-color: blueviolet;
+}
+
+footer{
+    width: 900px;
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.center {
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+}
