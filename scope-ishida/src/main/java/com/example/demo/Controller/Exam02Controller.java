@@ -19,7 +19,7 @@ public class Exam02Controller {
     }
 
     @RequestMapping("/calc")
-    public String calc(String name){
+    public String calc(String name,Integer num){
         session.setAttribute("num1",name);
         session.setAttribute("num2",name);
         return "exam02-result";
